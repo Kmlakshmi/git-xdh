@@ -1,2 +1,53 @@
-program 
+2. Develop a LaTeX script to create a document that display the sample Abstract / Summary
+
+\documentclass{article}
+
+\title{An Abstract writing)
+
+\author{Charan K V and Marlin B)
+
+\date{\today}
+
+\begin{document} This line start the document
+
+\maketitle
+
+\begin{abstract}
+
+This document contains some basic LaTeX code to create an abstract, it is useful during project report writing, seminar report writing, Technical paper writing and Mini project report preparation etc. We can make Abstract to be displayed before the title page by default. It contain auto justification of a paragraph.
+
+\end{abstract}
+
+\end{document}
+
+
+6. Develop a LaTeX script to create a document that contains the following table with proper labels.
+
+\documentclass{article}
+
+\usepackage{multirow}
+
+\begin{document}
+
+\begin{tabular}{|c|p{0.75in}p{1.25in}p{0.75in}p{0.75in}p{0.75i n}|}
+
+\hline
+
+\multirow{2}{*}{Sl.No} & \multirow{2}{*}{USN} &
+
+\multirow{2}{*}{Name} & \multicolumn{3}{c} {Marks} \\ \cline{4-6)
+
+&
+
+& & Subject1 & Subject2 & Subject3 \\ \hline
+
+1 & 1SV20ISxxx & Harish & 89 & 60 & 90\hline
+
+2 & 1SV20ISxxx & Anil & 78 & 45 & 98 \\ \hline
+
+3 & 1SV20ISxxx & Kumar & 67 & 55 & 59 \\\hline
+
+\end{tabular}
+
+\end{document}
     
